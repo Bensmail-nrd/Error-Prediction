@@ -41,9 +41,9 @@ from sklearn.linear_model import LinearRegression
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv('./PEMSD8.dyna')
-res = df.loc[df['entity_id']==154]
-res.describe().to_json('./D8_154.json')
+# df = pd.read_csv('./PEMSD8.dyna')
+# res = df.loc[df['entity_id']==154]
+# res.describe().to_json('./D8_154.json')
 
 def split(x_train,y_train):
     """
